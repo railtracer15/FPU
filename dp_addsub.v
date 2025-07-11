@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module dp_adder (
+module dp_addsub (
     input  [63:0] a,
     input  [63:0] b,
     input op,
