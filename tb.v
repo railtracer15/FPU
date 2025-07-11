@@ -1,6 +1,6 @@
 `timescale 1ns / 1ps
 
-module dp_adder_tb();
+module tb();
 
     // Inputs
     reg [63:0] a, b;
@@ -10,7 +10,7 @@ module dp_adder_tb();
     wire [63:0] result;
 
     // Instantiate the DUT
-    dp_adder uut (
+    dp_addsub uut (
         .a(a),
         .b(b),
         .op(op),
